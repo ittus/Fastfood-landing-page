@@ -4,4 +4,4 @@ Demo:
 http://ittus.github.io/Fastfood-landing-page/
 
 Screenshot
-![First image](screenshot/screenshot_1.png)
+![First image](./screenshot/screenshoot_1.png??raw=true)
