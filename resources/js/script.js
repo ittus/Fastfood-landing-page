@@ -39,4 +39,34 @@ $(document).ready(function(){
         }
         });
     });
+    
+//    Animation on scroll
+     var waypoint = new Waypoint({
+      element: document.getElementById('js--wp-1'),
+      handler: function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');
+      },
+      offset: '50%'
+    }); 
+    var waypoint = new Waypoint({
+      element: document.getElementById('js--wp-2'),
+      handler: function(direction) {
+        $('.js--wp-2').addClass('animated fadeInUp');
+      },
+      offset: '50%'
+    }); 
+    var waypoint = new Waypoint({
+      element: document.getElementById('js--wp-3'),
+      handler: function(direction) {
+        $('.js--wp-3').addClass('animated fadeIn');
+      },
+      offset: '50%'
+    }); 
+    var waypoint = new Waypoint({
+      element: document.getElementById('js--wp-4'),
+      handler: function(direction) {
+        $('.js--wp-4').addClass('animated pulse');
+      },
+      offset: '50%'
+    });
 });
