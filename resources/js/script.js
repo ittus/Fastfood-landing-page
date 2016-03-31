@@ -89,9 +89,19 @@ $(document).ready(function(){
     });
     
     //Map
-    new GMaps({
+    var map = new GMaps({
       div: '.map',
-      lat: -12.043333,
-      lng: -77.028333
+      lat: 10.7689999,
+      lng: 106.5,
+        zoom: 12
+    });
+    
+    map.addMarker({
+      lat: 10.7689999,
+      lng: 106.414175,
+      title: 'I am here',
+        infoWindow: {
+            content: 'I am here'
+        }
     });
 });
